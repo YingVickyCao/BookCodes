@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/inputNum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Write a number"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/addNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="addNumber"
+            android:text="Add" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

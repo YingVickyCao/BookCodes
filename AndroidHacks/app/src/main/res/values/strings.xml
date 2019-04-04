@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AndroidHacks</string>
+
+    <string name="show_map">Show map</string>
+    <string name="footer_text">2012 - NTM</string>
+    <string name="weather">实时天气</string>
+    <string name="slow_draw">Slow draw</string>
+    <string name="slow_measure">Slow measure</string>
+    <string name="hello">Hello World, HomeActivity!</string>
+    <string name="proguard">Proguard</string>
+    <string name="slow_layout">Slow layout</string>
+    <string name="show_toast">Show toast</string>
+    <string name="par_01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non metus et ligula dignissim imperdiet vitae nec diam. Fusce sit amet lorem quam, feugiat fermentum odio. Nam ante eros, luctus a laoreet a, placerat non lectus. Phasellus nec dui vel tellus imperdiet facilisis. In eu leo neque, at auctor lacus. Ut et sapien tellus, eget suscipit ante. Suspendisse nec arcu nisi, a hendrerit tortor. Pellentesque ullamcorper, lacus in congue feugiat, velit tellus congue turpis, et volutpat sapien nibh vitae ante. Mauris eget erat id elit rutrum tempor quis sed nibh. Donec tristique, leo eu placerat bibendum, ante turpis pellentesque nisl, non commodo nibh enim sit amet felis.</string>
+    <string name="par_02">Quisque ultrices est justo, non aliquet libero.
+        Quisque vel enim eget tellus rhoncus condimentum sed non metus. Aenean et venenatis lorem. Sed ultricies felis eu ligula varius ac fermentum sapien consectetur. Integer nisl lorem, tincidunt elementum pharetra in, porttitor sed erat. Etiam ante risus, gravida sed ultricies vel, accumsan eu metus. Donec interdum, mi eget tincidunt adipiscing, purus lorem blandit elit, commodo venenatis turpis arcu vel nisi. Aliquam aliquam nisl non sem congue blandit. Quisque ultrices est justo, non aliquet libero. Quisque vel enim eget tellus rhoncus condimentum sed non metus. Aenean et venenatis lorem. Sed ultricies felis eu ligula varius ac fermentum sapien consectetur. Integer nisl lorem, tincidunt elementum pharetra in, porttitor sed erat. Etiam ante risus, gravida sed ultricies vel, accumsan eu metus. Donec interdum, mi eget tincidunt adipiscing, purus lorem blandit elit, commodo venenatis turpis arcu vel nisi. Aliquam aliquam nisl non sem congue blandit.</string>
+
+    <string name="default_time">88:88:88</string>
+    <string name="text1"><![CDATA[Visit <a href=\"http://manning.com/\">Manning home page</a>]]></string>
+    <string name="text2">Hello World, HomeActivity!</string>
+    <string name="date">Date:</string>
+    <string name="picked_date_format">Picked date: %1$d/%2$d/%3$d</string>
+    <string name="landscape">landscape</string>
+    <string name="toast_fmt">Chosen country: %s</string>
+    <string name="add_selection">Pick Country</string>
+    <string name="take_picture">Take picture</string>
+    <string name="pick_picture">Pick picture</string>
+    <string name="pick_both">Take or pick picture</string>
+
+    <string name="loop1">Save loop1.mp3</string>
+    <string name="loop2">Save loop2.mp3</string>
+    <string name="content">App Content...</string>
+    <string name="launch_layar">Launch Layar!</string>
+
+    <string name="counter">Counter</string>
+    <string name="cacheData">Count, and cache data</string>
+    <string name="showCachedData">Show cached data</string>
+
+    <string name="app_description">This is a modified version of the sample application for the Android Training class
+        "Displaying Bitmaps Efficiently"
+        (http://developer.android.com/training/displaying-bitmaps/display-bitmap.html). It is not
+        designed to be a full reference application but to demonstrate the concepts discussed in
+        training course.</string>
+    <string name="clear_cache_menu">Clear Caches</string>
+    <string name="clear_cache_complete">Caches have been cleared</string>
+    <string name="imageview_description">Image Thumbnail</string>
+
+    <string name="main_no_batch">No Batch</string>
+    <string name="main_batch">Batch</string>
+    <string name="main_batch_plus_sql_content_provider">SQLContentProvider</string>
+    <string name="list_update">Update</string>
+</resources>

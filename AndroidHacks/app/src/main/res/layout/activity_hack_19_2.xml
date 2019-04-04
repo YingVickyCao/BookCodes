@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <com.example.hades.androidhacks.hack19.test.SlowMeasureView
+        android:id="@+id/slow_measure"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/slow_layout"
+        android:background="#00ff00"
+        android:text="@string/slow_measure" />
+
+    <com.example.hades.androidhacks.hack19.test.SlowLayoutView
+        android:id="@+id/slow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/slow_draw"
+        android:background="#00ffff"
+        android:text="@string/slow_layout" />
+
+    <com.example.hades.androidhacks.hack19.test.SlowDrawView
+        android:id="@+id/slow_draw"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff0000"
+        android:text="@string/slow_draw" />
+</RelativeLayout>

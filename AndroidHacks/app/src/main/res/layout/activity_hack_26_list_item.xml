@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 分段标头 -->
+    <!-- 分段标头会在新的分段开始时显示，否则就会被隐藏  -->
+    <include layout="@layout/activity_hack_26_header" />
+
+    <!-- 数据项 -->
+    <TextView
+        android:id="@+id/label"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

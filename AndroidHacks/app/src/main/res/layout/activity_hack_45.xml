@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/countAndCacheData"
+        android:gravity="center"
+        android:text="@string/counter" />
+
+    <Button
+        android:id="@+id/countAndCacheData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/showCachedData"
+        android:text="@string/cacheData"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/showCachedData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/showCachedData"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

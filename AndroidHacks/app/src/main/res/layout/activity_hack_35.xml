@@ -1,0 +1,31 @@
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="onTakePicture"
+        android:text="@string/take_picture" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="onPickPicture"
+        android:text="@string/pick_picture" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="onTakeAndPickPicture"
+        android:text="@string/pick_both" />
+
+</LinearLayout>

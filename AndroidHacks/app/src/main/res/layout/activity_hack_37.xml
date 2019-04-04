@@ -1,0 +1,30 @@
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onLoop1Click"
+            android:text="@string/loop1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onLoop2Click"
+            android:text="@string/loop2"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</RelativeLayout>

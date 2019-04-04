@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoBackground" parent="android:Theme">
+        <!-- 如果确定使用不透明的界面或者自定义背景，不需要绘制默认背景色。通过 windowBackground 属性， 设置不绘制默认背景色 -->
+        <item name="android:windowBackground">@null</item>
+        <!-- 通过 windowBackground 属性，移除标题栏 -->
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="PhotoGridLayout">
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:listSelector">@null</item>
+    </style>
+</resources>
